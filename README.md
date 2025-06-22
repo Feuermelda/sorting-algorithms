@@ -13,12 +13,24 @@ This repository contains my implementations of basic sorting algorithms as part 
 - **Bogo Sort**<br>
   A chaotic and inefficient sort that randomly shuffles the list until it happens to be sorted. Implemented for fun and learning purposes only.
 
+- **Merge Sort**<br>
+  Recursively splits the list into halves, sorts each half, and merges them back together in sorted order.
+
+- **Selection Sort**<br>
+  A simple comparison-based algorithm that repeatedly selects the smallest element from the unsorted part of the list and swaps it into its correct position.
+
+- **Lexicographic Permuation Sort**<br>
+  A permutation-based sort that shuffles through parallel realities (via `itertools.permutations`) until the sorted one is observed.
+
 ## How to Use
 
-Run any script using:
+To run an algorithm, use for example:
 
 ```bash
 python bubble_sort.py
 ```
 
 Or open and modify the list directly in the file. Each script runs independently.
+
+## Performance
+Time all algorithms and see which one is the fastest (coming soon)
